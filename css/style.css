@@ -1,0 +1,130 @@
+/* INICIO */
+body{
+    margin: 0;
+}
+/* HEADER */
+header{
+    display: flex;
+    margin: 0;
+    grid-area: header;
+}
+.encabezado{     
+    display: flex;
+    justify-content: center ;
+    width: 100%;
+    background-color: #a65811;
+    }
+.logo{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    background-color: #a65811;
+    padding: 35px 20px 35px 20px;
+    height: 100px;
+    width: 100px;
+     
+}
+.inicio-titulo {
+    font-family: "Sedan SC", serif;
+    font-size: 60px;
+    color: white;
+}
+
+/* MAIN */
+main{
+    grid-area: main;
+}
+.paginas{
+    display: flex;
+    background-color: #623611;
+    justify-content: space-around;
+    font-weight: bolder;
+    font-size: small;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+}
+a{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+}
+.video-1{
+    display: flex;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    justify-content: center;    
+}
+.subtitulo{
+    font-size: 40px;
+    text-align: center;    
+}
+.description{
+    text-align: justify;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 70px 70px 70px 70px;
+}
+.description-lugar{
+    text-align: justify;
+    line-height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: -50px 100px 0px 100px;
+}
+/* FOOTER */
+footer{
+    grid-area: footer;
+}
+.redes{
+    background-color: #623611;
+    font-weight: bolder;
+    margin: 0;
+    padding: 20px 20px 20px 20px;
+    
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none
+}
+.copyright{
+    display: flex;
+    margin: 0;
+    padding: 20px 20px 20px 20px;
+    font-size: x-small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #a65811;
+    justify-content: center;
+}
+/* QUIENES SOMOS */
+
+/* SUCURSALES */
+
+/* PREGUNTAS FRECUENTES*/
+
+/* MÁS */
+
+/* GRID LAYOUT */
+.grid-container{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.05fr 1fr 0.05fr ;
+    grid-template-areas: 
+    "header header header header header"
+    "main main main main main"
+    "footer footer footer footer footer";
+}
+
+
+
+
+
+
+
+
+
+
+
+
