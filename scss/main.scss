@@ -1,0 +1,10 @@
+// Reset
+@import "./mixins";
+@import "./config/reset";
+// Layout - Estructura HTML
+@import "./encabezado";
+@import "./principal";
+@import "./pie";
+// Media queries
+@import "./mediaqueries";
+// Grid

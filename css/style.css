@@ -281,11 +281,6 @@ footer {
         margin-left: 90px;
         margin-right: 90px;
     }
-/* SUCURSALES */
-    
-/* FAQS */
-
-/* PRODUCTOS */
 }
 @media (min-width: 320px) and (max-width: 700px) {
 /* INICIO */ 
@@ -391,17 +386,6 @@ footer {
         height: auto;
     }
 }
-@media (min-width: 360px) and (max-width: 475px) { 
-/* INICIO */ 
-
-/* QUIENES SOMOS */
-    
-/* SUCURSALES */
-      
-/* FAQS */
-
-/* PRODUCTOS */ 
-} 
 /* GRID LAYOUT */
 .grid-container-inicio {
     display: grid;

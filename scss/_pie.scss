@@ -1,0 +1,23 @@
+footer {
+    grid-area: footer;
+    position: static;
+}
+.redes{
+    background-color: #f7af63;
+    font-weight: bolder;
+    @include spaces(20px, 0, 0);
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none
+}
+.copyright{
+    display: flex; 
+    justify-content: center;
+    @include spaces(20px, 0, 0);
+    background-color: #633d2e;
+    font-size: x-small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;   
+}

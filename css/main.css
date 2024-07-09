@@ -1,0 +1,398 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #bfd8ad;
+}
+
+/* header */
+header {
+  width: 100%;
+  grid-area: header;
+  background-color: #633d2e;
+}
+
+.title-inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sedan SC";
+  color: white;
+  font-size: 200px;
+  padding: 20px;
+}
+
+.paginas {
+  grid-area: pages;
+  text-decoration-color: #000000;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Sedan SC";
+  background-color: #f7af63;
+  font-weight: bolder;
+  padding: 20px;
+  margin: 0;
+  border: 0;
+}
+
+a {
+  display: flex;
+  justify-content: space-around;
+  color: black;
+  text-decoration: none;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+/* main */
+main {
+  grid-area: main;
+}
+
+.subtitulo {
+  font-size: 40px;
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+  line-height: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 40px 200px 100px 200px;
+}
+
+.video-1 {
+  display: flex;
+  padding: 20px;
+  margin: -20px 20px 20px 20px;
+  border: 0;
+  justify-content: center;
+}
+
+.description-lugar {
+  text-align: justify;
+  line-height: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 40px 200px 100px 200px;
+}
+
+/* QUIENES SOMOS */
+.qs-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 60px;
+  padding: 20px 0 15px 0;
+  margin: 0;
+  border: 0;
+}
+
+.workers-first {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  line-height: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin: 20px 200px 20px 200px;
+}
+
+.workers-second {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  line-height: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  margin: 70px 200px 0 200px;
+}
+
+.img-bar {
+  display: flex;
+  justify-content: center;
+  height: 900px;
+  padding: 0;
+  margin: 0 200px;
+  border: 100px;
+  border-color: #f7af63;
+}
+
+.img-beer {
+  display: flex;
+  justify-content: center;
+  height: 900px;
+  padding: 0;
+  margin: 0 200px 50px;
+  border: 100px;
+  border-color: #f7af63;
+}
+
+/* SUCURSALES */
+.sucursales-title {
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 30px 0 0 0;
+}
+
+.sucursales-text1 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.d-grid-gap-2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0px 50px 50px 50px;
+}
+
+.btn-btn-primary {
+  background: #9cddc8;
+  padding: 20px 40px;
+  margin: 15px 0;
+  border: 0;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+.sucursal {
+  margin: 0px;
+}
+
+/* FAQS */
+.faqs-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30px 30px 0 30px;
+}
+
+.accordion {
+  margin: 50px 200px 100px 200px;
+}
+
+.accordion-item {
+  background: #f7af63;
+}
+
+.accordion-button {
+  font-family: "Sedan SC";
+  font-weight: 600;
+  height: 60px;
+  color: black;
+  background: #9cddc8;
+}
+
+.accordion-body {
+  color: black;
+  font-weight: bolder;
+}
+
+/* PRODUCTOS */
+.productos-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  padding: 30px 100px 30px 100px;
+}
+
+.productos-subtitle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -15px;
+}
+
+.d-block {
+  text-align: center;
+  height: 1000px;
+  width: auto;
+  padding: 20px 300px 80px 300px;
+}
+
+.d-block-two {
+  text-align: center;
+  height: 1000px;
+  width: auto;
+  padding: 0 150px 80px 150px;
+}
+
+.carousel-inner {
+  text-align: center;
+  padding: 25px 150px 25px 150px;
+  width: 100%;
+}
+
+.carousel-control-prev-icon {
+  background-color: #633d2e;
+}
+
+.carousel-control-next-icon {
+  background-color: #633d2e;
+}
+
+footer {
+  grid-area: footer;
+  position: static;
+}
+
+.redes {
+  background-color: #f7af63;
+  font-weight: bolder;
+  padding: 20px;
+  margin: 0;
+  border: 0;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+  border: 0;
+  background-color: #633d2e;
+  font-size: x-small;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+
+@media (min-width: 700px) and (max-width: 960px) {
+  /* INICIO */
+  .paginas {
+    display: flex;
+    flex-direction: column;
+  }
+  /* QUIENES SOMOS */
+  .workers-first {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .workers-second {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media (min-width: 320px) and (max-width: 700px) {
+  /* INICIO */
+  .inicio-titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+  }
+  .paginas {
+    display: flex;
+    flex-direction: column;
+  }
+  .description {
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  .description-lugar {
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  .redes-sociales {
+    display: block;
+    justify-content: center;
+  }
+  /* QUIENES SOMOS */
+  .qs-title {
+    font-size: 30px;
+  }
+  .workers-first {
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 15px;
+    line-height: 40px;
+  }
+  .workers-second {
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 15px;
+    line-height: 40px;
+  }
+  .img-bar {
+    margin: 0 90px;
+  }
+  .img-beer {
+    margin: 0 90px 40px;
+  }
+  /* SUCURSALES */
+  .sucursales-title {
+    font-size: 25px;
+  }
+  .sucursales-text1 {
+    font-size: 20px;
+  }
+  .btn-btn-primary {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    padding: 20px;
+  }
+  .sucursal {
+    font-size: 15px;
+  }
+  /* FAQS */
+  .faqs-title {
+    font-size: 30px;
+  }
+  .accordion {
+    margin: 50px 30px;
+  }
+  .accordion-button {
+    padding: 40px 15px;
+  }
+  /* PRODUCTOS */
+  .productos-title {
+    font-size: 25px;
+  }
+  .productos-subtitle {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .carousel {
+    height: auto;
+    width: auto;
+  }
+  .carousel-inner {
+    padding: 0px;
+  }
+  .d-block {
+    padding: 0px 0px 40px;
+    height: auto;
+  }
+  .d-block-two {
+    padding: 0px 0px 40px;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

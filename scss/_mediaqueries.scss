@@ -1,0 +1,119 @@
+@media (min-width: 700px) and (max-width: 960px) {
+    /* INICIO */     
+        .paginas {
+            display: flex;
+            flex-direction: column;
+        }
+    /* QUIENES SOMOS */
+        .workers-first {
+            margin-left: 90px;
+            margin-right: 90px;
+        }
+        .workers-second {
+            margin-left: 90px;
+            margin-right: 90px;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 700px) {
+    /* INICIO */ 
+        .inicio-titulo {
+            display: flex;
+            justify-content: center;
+            font-size: 30px;
+        }
+        .paginas {
+            display: flex;
+            flex-direction: column;
+        }
+        .description {
+            font-size: 15px;
+            line-height: 25px;
+            margin-right: 50px;
+            margin-left: 50px;
+            margin-bottom: 40px;
+        }
+        .description-lugar {
+            font-size: 15px;
+            line-height: 25px;
+            margin-right: 50px;
+            margin-left: 50px;
+            margin-bottom: 40px;
+        }
+        .redes-sociales {
+            display: block;
+            justify-content: center;
+        } 
+    /* QUIENES SOMOS */
+        .qs-title {
+            font-size: 30px;
+        }
+        .workers-first {
+            margin-left: 90px;
+            margin-right: 90px;
+            font-size: 15px;
+            line-height: 40px;
+    }
+        .workers-second {
+            margin-left: 90px;
+            margin-right: 90px;
+            font-size: 15px;
+            line-height: 40px;
+    }
+        .img-bar {
+            margin: 0 90px;  
+    }
+        .img-beer {
+            margin: 0 90px 40px;
+        }
+    /* SUCURSALES */
+        .sucursales-title {
+            font-size: 25px;
+        }
+        .sucursales-text1 {
+            font-size: 20px;
+        }
+        .btn-btn-primary {
+            display: flex;
+            text-align: center;
+            flex-wrap: wrap;
+            margin: 15px 0;
+            padding: 20px;
+        }
+        .sucursal {
+            font-size: 15px;
+            
+        }
+    /* FAQS */
+        .faqs-title {
+            font-size: 30px;
+        }
+        .accordion {
+            margin: 50px 30px;
+            
+    }
+        .accordion-button {
+            padding: 40px 15px;
+        }
+    /* PRODUCTOS */
+        .productos-title {
+            font-size: 25px;
+        }
+        .productos-subtitle {
+            font-size: 15px;
+            font-weight: 600;
+        }
+        .carousel {
+            @include sizes(auto, auto)
+        }
+        .carousel-inner {
+            padding: 0px;
+        }
+        .d-block {
+            padding: 0px 0px 40px;
+            height: auto;
+        }
+        .d-block-two {
+            padding: 0px 0px 40px;
+            height: auto;
+        }
+    }
