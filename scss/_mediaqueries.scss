@@ -1,3 +1,24 @@
+@media (min-width: 700px) and (max-width: 1530px) {
+    .d-block {
+        padding: 0px 0px 40px;
+        height: auto;
+    }
+    .d-block-two {
+        padding: 0px 0px 40px;
+        height: auto;
+    }
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+/* INICIO */
+    .description {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+/* FAQS */
+    .accordion {
+        margin: 50px 30px;
+    }
+}
 @media (min-width: 700px) and (max-width: 960px) {
     /* INICIO */     
         .paginas {
@@ -59,12 +80,6 @@
             font-size: 15px;
             line-height: 40px;
     }
-        .img-bar {
-            margin: 0 90px;  
-    }
-        .img-beer {
-            margin: 0 90px 40px;
-        }
     /* SUCURSALES */
         .sucursales-title {
             font-size: 25px;

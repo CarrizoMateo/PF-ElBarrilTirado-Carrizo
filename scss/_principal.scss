@@ -52,19 +52,15 @@ main {
     line-height: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
-    margin: 70px 200px 0 200px
+    margin: 40px 200px 0 200px
 }
 .img-bar {
     display: flex;
     justify-content: center;
-    height: 900px;
-    @include spaces(0, 0 200px, 100px);
-    border-color: #f7af63;
 }
 .img-beer {
     display: flex;
     justify-content: center;
-    height: 900px;
     @include spaces (0, 0 200px 50px, 100px);
     border-color: #f7af63;
 }
