@@ -137,7 +137,8 @@ footer {
 .img-beer {
     display: flex;
     justify-content: center;
-    height: 900px;
+    height: 800px;
+    width: 600px;
     border: 100px;
     border-color: #f7af63;
     margin: 0px 200px 50px;

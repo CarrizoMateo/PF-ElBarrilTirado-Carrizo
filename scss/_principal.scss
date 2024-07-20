@@ -59,14 +59,12 @@ main {
     justify-content: center;
     height: 900px;
     @include spaces(0, 0 200px, 100px);
-    border-color: #f7af63;
 }
 .img-beer {
     display: flex;
     justify-content: center;
     height: 900px;
     @include spaces (0, 0 200px 50px, 100px);
-    border-color: #f7af63;
 }
 /* SUCURSALES */
 .sucursales-title {

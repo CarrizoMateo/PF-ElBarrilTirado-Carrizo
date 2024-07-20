@@ -4,19 +4,16 @@
   border: 0;
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   background: #bfd8ad;
 }
-
 /* header */
 header {
   width: 100%;
   grid-area: header;
   background-color: #633d2e;
 }
-
 .title-inicio {
   display: flex;
   align-items: center;
@@ -26,7 +23,6 @@ header {
   font-size: 200px;
   padding: 20px;
 }
-
 .paginas {
   grid-area: pages;
   text-decoration-color: #000000;
@@ -39,7 +35,6 @@ header {
   margin: 0;
   border: 0;
 }
-
 a {
   display: flex;
   justify-content: space-around;
@@ -53,12 +48,10 @@ a {
 main {
   grid-area: main;
 }
-
 .subtitulo {
   font-size: 40px;
   text-align: center;
 }
-
 .description {
   text-align: justify;
   line-height: 50px;
@@ -67,15 +60,16 @@ main {
   font-weight: 500;
   margin: 40px 200px 100px 200px;
 }
-
-.video-1 {
-  display: flex;
-  padding: 20px;
-  margin: -20px 20px 20px 20px;
-  border: 0;
-  justify-content: center;
+.container-video {
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
 }
-
+.video-1 {
+  width: 100%;
+  border-radius: 15px;
+}
 .description-lugar {
   text-align: justify;
   line-height: 50px;
@@ -84,7 +78,6 @@ main {
   font-weight: 500;
   margin: 40px 200px 100px 200px;
 }
-
 /* QUIENES SOMOS */
 .qs-title {
   display: flex;
@@ -95,7 +88,6 @@ main {
   margin: 0;
   border: 0;
 }
-
 .workers-first {
   display: flex;
   flex-wrap: wrap;
@@ -105,7 +97,6 @@ main {
   font-size: 18px;
   margin: 20px 200px 20px 200px;
 }
-
 .workers-second {
   display: flex;
   flex-wrap: wrap;
@@ -115,27 +106,22 @@ main {
   font-size: 18px;
   margin: 70px 200px 0 200px;
 }
-
+.img-container {
+  text-align: center;
+  display: block;
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto;
+}
 .img-bar {
-  display: flex;
-  justify-content: center;
-  height: 900px;
-  padding: 0;
-  margin: 0 200px;
-  border: 100px;
-  border-color: #f7af63;
+  width: 100%;
+  border-radius: 15px;
 }
-
 .img-beer {
-  display: flex;
-  justify-content: center;
-  height: 900px;
-  padding: 0;
-  margin: 0 200px 50px;
-  border: 100px;
-  border-color: #f7af63;
+  width: 100%;
+  border-radius: 15px;
 }
-
 /* SUCURSALES */
 .sucursales-title {
   display: flex;
@@ -143,20 +129,18 @@ main {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 30px 0 0 0;
 }
-
 .sucursales-text1 {
   display: flex;
   justify-content: center;
   font-size: 30px;
 }
-
 .d-grid-gap-2 {
+  width: 100%;
   display: flex;
   flex-direction: column;
   color: white;
   padding: 0px 50px 50px 50px;
 }
-
 .btn-btn-primary {
   background: #9cddc8;
   padding: 20px 40px;
@@ -164,13 +148,12 @@ main {
   border: 0;
   font-size: 24px;
   font-weight: bold;
-  border-radius: 12px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px rgba(15, 15, 15, .5);
 }
-
 .sucursal {
   margin: 0px;
 }
-
 /* FAQS */
 .faqs-title {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -179,15 +162,12 @@ main {
   text-decoration: underline;
   padding: 30px 30px 0 30px;
 }
-
 .accordion {
   margin: 50px 200px 100px 200px;
 }
-
 .accordion-item {
   background: #f7af63;
 }
-
 .accordion-button {
   font-family: "Sedan SC";
   font-weight: 600;
@@ -195,12 +175,10 @@ main {
   color: black;
   background: #9cddc8;
 }
-
 .accordion-body {
   color: black;
   font-weight: bolder;
 }
-
 /* PRODUCTOS */
 .productos-title {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -209,47 +187,39 @@ main {
   text-decoration: underline;
   padding: 30px 100px 30px 100px;
 }
-
 .productos-subtitle {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: center;
   font-size: 20px;
   margin-top: -15px;
 }
-
 .d-block {
   text-align: center;
-  height: 1000px;
-  width: auto;
-  padding: 20px 300px 80px 300px;
+  width: 100%;
+  border-radius: 15px;
 }
-
 .d-block-two {
   text-align: center;
-  height: 1000px;
-  width: auto;
-  padding: 0 150px 80px 150px;
+  width: 100%;
+  border-radius: 15px;
 }
-
 .carousel-inner {
   text-align: center;
-  padding: 25px 150px 25px 150px;
-  width: 100%;
+  width: 75vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto
 }
-
 .carousel-control-prev-icon {
   background-color: #633d2e;
 }
-
 .carousel-control-next-icon {
   background-color: #633d2e;
 }
-
 footer {
   grid-area: footer;
   position: static;
 }
-
 .redes {
   background-color: #f7af63;
   font-weight: bolder;
@@ -257,13 +227,11 @@ footer {
   margin: 0;
   border: 0;
 }
-
 .redes-sociales {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
 }
-
 .copyright {
   display: flex;
   justify-content: center;
@@ -275,7 +243,35 @@ footer {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
 }
-
+/* MEDIAS QUERIES */
+@media (min-width: 700px) and (max-width: 1530px) {
+  .d-block {
+      padding: 0px 0px 40px;
+      height: auto;
+  }
+  .d-block-two {
+      padding: 0px 0px 40px;
+      height: auto;
+  }
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+/* INICIO */
+  .description {
+      margin-right: 50px;
+      margin-left: 50px;
+      line-height: 40px;
+  }
+  .description-lugar {
+      margin-right: 50px;
+      margin-left: 50px;
+      line-height: 40px;
+  }
+/* FAQS */
+  .accordion {
+      margin: 50px 30px;
+  }
+/* PRODUCTOS */
+}
 @media (min-width: 700px) and (max-width: 960px) {
   /* INICIO */
   .paginas {
@@ -304,15 +300,15 @@ footer {
     flex-direction: column;
   }
   .description {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 35px;
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 40px;
   }
   .description-lugar {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 35px;
     margin-right: 50px;
     margin-left: 50px;
     margin-bottom: 40px;
@@ -326,22 +322,16 @@ footer {
     font-size: 30px;
   }
   .workers-first {
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 15px;
-    line-height: 40px;
+    line-height: 30px;
   }
   .workers-second {
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
     font-size: 15px;
-    line-height: 40px;
-  }
-  .img-bar {
-    margin: 0 90px;
-  }
-  .img-beer {
-    margin: 0 90px 40px;
+    line-height: 30px;
   }
   /* SUCURSALES */
   .sucursales-title {
@@ -394,5 +384,50 @@ footer {
     height: auto;
   }
 }
-
+/* GRID LAYOUT */
+.grid-container-inicio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+  grid-template-areas: 
+  "header header header header header" 
+  "main   main   main   main   main"
+  "footer footer footer footer footer";
+}
+.grid-container-qs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+  grid-template-areas: 
+  "header header header header header" 
+  "main   main   main   main   main"
+  "footer footer footer footer footer";
+}
+.grid-container-sucursales {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+  grid-template-areas: 
+  "header header header header header" 
+  "main   main   main   main   main"
+  "footer footer footer footer footer"
+}
+.grid-container-faqs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+  grid-template-areas: 
+  "header header header header header" 
+  "main   main   main   main   main"
+  "footer footer footer footer footer";
+}
+.grid-container-productos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+  grid-template-areas: 
+  "header header header header header" 
+  "main   main   main   main   main"
+  "footer footer footer footer footer";
+}
 /*# sourceMappingURL=main.css.map */
