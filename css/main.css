@@ -250,6 +250,7 @@ h4 {
 .carousel-control-next-icon {
   background-color: #633d2e;
 }
+/* FOOTER */
 footer {
   display: grid;
   grid-area: footer;

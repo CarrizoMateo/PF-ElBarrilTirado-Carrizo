@@ -1,5 +1,4 @@
-/* MEDIA QUERIES*/
-/* PRODUCTOS */
+/* MEDIAS QUERIES */
 @media (min-width: 700px) and (max-width: 1530px) {
     .d-block {
         padding: 0px 0px 40px;
@@ -9,142 +8,218 @@
         padding: 0px 0px 40px;
         height: auto;
     }
-}
-@media (min-width: 700px) and (max-width: 1000px) {
-/* INICIO */
+  /* INICIO */
+    .description {
+      font-size: 18px;
+      margin-right: 50px;
+      margin-left: 50px;
+      line-height: 40px;
+  }
+  .description-lugar {
+      font-size: 18px;
+      margin-right: 50px;
+      margin-left: 50px;
+      line-height: 40px;
+  }
+  /* QUIENES SOMOS */
+     .workers-first {
+      margin-left: 90px;
+      margin-right: 90px;
+    }
+    .workers-second {
+      margin-left: 90px;
+      margin-right: 90px;
+    }
+  }
+  @media (min-width: 1185px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex;
+        flex-basis: auto; 
+      }  
+  }
+  @media (min-width: 700px) and (max-width: 1000px) {
+  /* INICIO */
     .description {
         margin-right: 50px;
         margin-left: 50px;
+        line-height: 40px;
     }
-/* QUIENES SOMOS */
-    .img-bar {
-        margin: 0 90px;  
-}
-    .img-beer {
-        margin: 0 90px 40px;
-}
-/* FAQS */
+    .description-lugar {
+        margin-right: 50px;
+        margin-left: 50px;
+        line-height: 40px;
+    }
+   /* QUIENES SOMOS */
+    h4 {
+      padding: 0px 90px;
+    }
+    .workers-first {
+    margin-left: 90px;
+    margin-right: 90px;
+    }
+    .workers-second {
+    margin-left: 90px;
+    margin-right: 90px;
+    }
+  /* FAQS */
     .accordion {
         margin: 50px 30px;
     }
-/* PRODUCTOS */
-}
-@media (min-width: 700px) and (max-width: 960px) {
-    /* INICIO */     
-        .paginas {
-            display: flex;
-            flex-direction: column;
-        }
+  /* PRODUCTOS */
+  }
+  @media (min-width: 700px) and (max-width: 960px) {
+  /* INICIO */
+  /* QUIENES SOMOS */
+    .workers-first {
+      margin-left: 90px;
+      margin-right: 90px;
+    }
+    .workers-second {
+      margin-left: 90px;
+      margin-right: 90px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1000px) {
+    .title-inicio { 
+      display: none;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 991px) { 
+    .title-inicio {
+      display: flex;
+    }
+    .navbar-nav {
+      display: flex;
+      width: 750px;
+      margin: 10px 0px;
+      border-radius: 0px;
+    }
+    .nav-item {
+      padding-bottom: 10px;
+    }
+    .nav-link {
+      text-decoration: underline;
+    }
+    .navbar-collapse {
+      display: flex;
+      justify-content: end;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 763px){
+    .navbar-nav {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      margin: 10px 0px;
+      border-radius: 0px;
+      align-items: center;
+    } 
+  }
+  @media (min-width: 320px) and (max-width: 700px) {
+    /* INICIO */
+    .description {
+      font-size: 18px;
+      line-height: 35px;
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 40px;
+    }
+    
+    .description-lugar {
+      font-size: 18px;
+      line-height: 35px;
+      margin-right: 50px;
+      margin-left: 50px;
+      margin-bottom: 40px;
+    }
     /* QUIENES SOMOS */
-        .workers-first {
-            margin-left: 90px;
-            margin-right: 90px;
-        }
-        .workers-second {
-            margin-left: 90px;
-            margin-right: 90px;
-        }
+    .qs-title {
+      font-size: 30px;
     }
-    @media (min-width: 320px) and (max-width: 700px) {
-    /* INICIO */ 
-        .inicio-titulo {
-            display: flex;
-            justify-content: center;
-            font-size: 30px;
-        }
-        .paginas {
-            display: flex;
-            flex-direction: column;
-        }
-        .description {
-            font-size: 15px;
-            line-height: 25px;
-            margin-right: 50px;
-            margin-left: 50px;
-            margin-bottom: 40px;
-        }
-        .description-lugar {
-            font-size: 15px;
-            line-height: 25px;
-            margin-right: 50px;
-            margin-left: 50px;
-            margin-bottom: 40px;
-        }
-        .redes-sociales {
-            display: block;
-            justify-content: center;
-        } 
-    /* QUIENES SOMOS */
-        .qs-title {
-            font-size: 30px;
-        }
-        .workers-first {
-            margin-left: 90px;
-            margin-right: 90px;
-            font-size: 15px;
-            line-height: 40px;
+    h4 {
+      font-size: 15px;
+      padding: 0px 50px;
     }
-        .workers-second {
-            margin-left: 90px;
-            margin-right: 90px;
-            font-size: 15px;
-            line-height: 40px;
+    .workers-first {
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 15px;
+      line-height: 30px;
     }
-        .img-bar {
-            margin: 0 90px;  
+    .workers-second {
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 15px;
+      line-height: 30px;
     }
-        .img-beer {
-            margin: 0 90px 40px;
-        }
     /* SUCURSALES */
-        .sucursales-title {
-            font-size: 25px;
-        }
-        .sucursales-text1 {
-            font-size: 20px;
-        }
-        .btn-btn-primary {
-            display: flex;
-            text-align: center;
-            flex-wrap: wrap;
-            margin: 15px 0;
-            padding: 20px;
-        }
-        .sucursal {
-            font-size: 15px;
-            
-        }
+    .sucursales-title {
+      font-size: 25px;
+    }
+    .sucursales-text1 {
+      font-size: 20px;
+    }
+    .btn-btn-primary {
+      display: flex;
+      text-align: center;
+      flex-wrap: wrap;
+      margin: 15px 0;
+      padding: 20px;
+    }
+    .sucursal {
+      font-size: 15px;
+    }
     /* FAQS */
-        .faqs-title {
-            font-size: 30px;
-        }
-        .accordion {
-            margin: 50px 30px;
-            
+    .faqs-title {
+      font-size: 30px;
     }
-        .accordion-button {
-            padding: 40px 15px;
-        }
+    .accordion {
+      margin: 50px 30px;
+    }
+    .accordion-button {
+      padding: 40px 15px;
+    }
     /* PRODUCTOS */
-        .productos-title {
-            font-size: 25px;
-        }
-        .productos-subtitle {
-            font-size: 15px;
-            font-weight: 600;
-        }
-        .carousel {
-            @include sizes(auto, auto)
-        }
-        .carousel-inner {
-            padding: 0px;
-        }
-        .d-block {
-            padding: 0px 0px 40px;
-            height: auto;
-        }
-        .d-block-two {
-            padding: 0px 0px 40px;
-            height: auto;
-        }
+    .productos-title {
+      font-size: 25px;
     }
+    .productos-subtitle {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .carousel {
+      height: auto;
+      width: auto;
+    }
+    .carousel-inner {
+      padding: 0px;
+    }
+    .d-block {
+      padding: 0px 0px 40px;
+      height: auto;
+    }
+    .d-block-two {
+      padding: 0px 0px 40px;
+      height: auto;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 500px) {
+    /* INICIO */
+    .title-inicio {
+      display: none;
+    }
+    
+    .nav-item {
+      padding-bottom: 10px;
+    }
+    .nav-link {
+      text-decoration: underline;
+    }
+    .navbar-collapse {
+      display: flex;
+      justify-content: end;
+    }
+    .video-1 {
+      transform: none;
+    }  
+  }

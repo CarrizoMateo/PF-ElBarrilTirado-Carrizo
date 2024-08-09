@@ -1,0 +1,46 @@
+/* GRID LAYOUT */
+.grid-container-inicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+    grid-template-areas: 
+    "header header" 
+    "main   main"
+    "footer footer";
+  }
+  .grid-container-qs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+    grid-template-areas: 
+    "header header" 
+    "main   main"
+    "footer footer";
+  }
+  .grid-container-sucursales {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+    grid-template-areas: 
+    "header header" 
+    "main   main"
+    "footer footer"
+  }
+  .grid-container-faqs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+    grid-template-areas: 
+    "header header" 
+    "main   main"
+    "footer footer";
+  }
+  .grid-container-productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.01fr 0.05fr 0.02fr ;
+    grid-template-areas: 
+    "header header" 
+    "main   main"
+    "footer footer";
+  }

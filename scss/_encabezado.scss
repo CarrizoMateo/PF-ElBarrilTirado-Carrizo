@@ -1,34 +1,63 @@
 /* header */
-header{   
+header {
+    display: grid;
     width: 100%;
     grid-area: header;
-    background-color: #633d2e;
-}
-.title-inicio {
+    color: #f7af63;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .title-inicio {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Sedan SC';
-    color: white;
+    font-size: 25px;
+    font-family: "Sedan SC";
+    font-weight: bolder;
+    color: black;
     font-size: 200px;
     padding: 20px;
-}
-.paginas{
+    text-decoration: none;
+  }
+  .container-fluid {
+    background-color: #f7af63;
+    padding: 10px;
+  }
+  .logo-navbar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: #000000;
+  }
+  .navbar-collapse {
+    justify-content: end;
+  }
+  .navbar-nav {
+    display: grid;
     grid-area: pages;
     text-decoration-color: #000000;
+    flex-direction: row;
     display: flex;
     justify-content: space-around;
-    font-family: 'Sedan SC';
-    background-color: #f7af63;
+    font-family: "Sedan SC";
+    background-color: #633d2e;
     font-weight: bolder;
-    @include spaces (20px,0,0);
-    
-}
-a{
+    width: 650px;
+    padding: 20px;
+    margin: 0;
+    border-radius: 20px;
+  }
+  .nav-item {
+    display: flex;
+    align-items: center;  
+  }
+  .nav-link {
+    color: white;
+    padding: 0;
+  }
+  a {
     display: flex;
     justify-content: space-around;
-    color: black;
-    text-decoration: none;
-    padding-right: 50px;
-    padding-left: 50px;
-}   
+    color: black
+  }

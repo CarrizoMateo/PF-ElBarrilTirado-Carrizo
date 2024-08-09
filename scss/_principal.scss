@@ -1,156 +1,179 @@
 /* main */
 main {
+    display: grid;
     grid-area: main;
-}
-.subtitulo{
+  }
+  .subtitulo {
     font-size: 40px;
-    text-align: center;    
-}
-.description{
+    text-align: center;
+  }
+  .description {
     text-align: justify;
     line-height: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 40px 200px 40px 200px;
+  }
+  .container-video {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .video-1 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .description-lugar {
+    text-align: justify;
+    line-height: 50px;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 22px;
     font-weight: 500;
     margin: 40px 200px 100px 200px;
-}
-.video-1{
-    display: flex;
-    @include spaces(20px, -20px 20px 20px 20px, 0);
-    justify-content: center;    
-}
-.description-lugar{
-    text-align: justify;
-    line-height: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 22px;
-    font-weight: 500;
-    margin: 40px 200px 100px 200px;
-}
-/* QUIENES SOMOS */
-.qs-title {
+  }
+  /* QUIENES SOMOS */
+  h4 {
     display: flex;
     justify-content: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .qs-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     font-size: 60px;
-    @include spaces(20px 0 15px 0, 0, 0 );
-}
-.workers-first {
+    padding: 20px 0 15px 0;
+    margin: 0;
+    border: 0;
+  }
+  .workers-first {
     display: flex;
     flex-wrap: wrap;
     text-align: justify;
     line-height: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
     margin: 20px 200px 20px 200px;
-
-}
-.workers-second {
+  }
+  .workers-second {
     display: flex;
     flex-wrap: wrap;
     text-align: justify;
     line-height: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 18px;
-    margin: 70px 200px 0 200px
-}
-.img-bar {
+    margin: 20px 200px 20px 200px;
+  }
+  .img-container {
+    text-align: center;
+    display: block;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+  }
+  .img-bar {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .img-beer {
+    width: 100%;
+    border-radius: 15px;
+  }
+  /* SUCURSALES */
+  .sucursales-title {
     display: flex;
     justify-content: center;
-    height: 900px;
-    @include spaces(0, 0 200px, 100px);
-}
-.img-beer {
-    display: flex;
-    justify-content: center;
-    height: 900px;
-    @include spaces (0, 0 200px 50px, 100px);
-}
-/* SUCURSALES */
-.sucursales-title {
-    display: flex;
-    justify-content: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     margin: 30px 0 0 0;
-}
-.sucursales-text1 {
+  }
+  .sucursales-text1 {
     display: flex;
     justify-content: center;
     font-size: 30px;
-}
-.d-grid-gap-2 {
+  }
+  .d-grid-gap-2 {
+    width: 100%;
     display: flex;
     flex-direction: column;
     color: white;
     padding: 0px 50px 50px 50px;
-}
-.btn-btn-primary {
+  }
+  .btn-btn-primary {
     background: #9cddc8;
-    @include spaces (20px 40px, 15px 0, 0);
+    padding: 20px 40px;
+    margin: 15px 0;
+    border: 0;
     font-size: 24px;
     font-weight: bold;
-    border-radius: 12px;
-}
-.sucursal {
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px rgba(15, 15, 15, .5);
+  }
+  .sucursal {
     margin: 0px;
-}
-/* FAQS */
-.faqs-title {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  /* FAQS */
+  .faqs-title {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     font-size: 50px;
     text-align: center;
-    text-decoration: underline  ;
+    text-decoration: underline;
     padding: 30px 30px 0 30px;
-}
-.accordion {
+  }
+  .accordion {
     margin: 50px 200px 100px 200px;
-}
-.accordion-item {
+  }
+  .accordion-item {
     background: #f7af63;
-}
-.accordion-button {
-    font-family: 'Sedan SC';
+  }
+  .accordion-button {
+    font-family: "Sedan SC";
     font-weight: 600;
     height: 60px;
     color: black;
     background: #9cddc8;
-}
-.accordion-body {
+  }
+  .accordion-body {
     color: black;
     font-weight: bolder;
-}
-/* PRODUCTOS */
-.productos-title {
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  }
+  /* PRODUCTOS */
+  .productos-title {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     text-align: center;
     font-size: 35px;
     text-decoration: underline;
     padding: 30px 100px 30px 100px;
-}
-.productos-subtitle {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  }
+  .productos-subtitle {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     text-align: center;
     font-size: 20px;
     margin-top: -15px;
-}
-.d-block {
+  }
+  .d-block {
     text-align: center;
-    @include sizes(1000px, auto);
-    padding: 20px 300px 80px 300px;
-}
-.d-block-two {
-    text-align: center;
-    @include sizes(1000px, auto);
-    padding: 0 150px 80px 150px;
-}
-.carousel-inner {
-    text-align: center;
-    padding: 25px 150px 25px 150px;
     width: 100%;
-}
-.carousel-control-prev-icon {
+    border-radius: 15px;
+  }
+  .d-block-two {
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .carousel-inner {
+    text-align: center;
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px
+  }
+  .carousel-control-prev-icon {
     background-color: #633d2e;
-}
-.carousel-control-next-icon {
+  }
+  .carousel-control-next-icon {
     background-color: #633d2e;
-}
+  }
