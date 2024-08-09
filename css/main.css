@@ -10,41 +10,70 @@ body {
 }
 /* header */
 header {
+  display: grid;
   width: 100%;
   grid-area: header;
-  background-color: #633d2e;
+  color: #f7af63;
+}
+.navbar {
+  padding: 0;
 }
 .title-inicio {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 25px;
   font-family: "Sedan SC";
-  color: white;
+  font-weight: bolder;
+  color: black;
   font-size: 200px;
   padding: 20px;
+  text-decoration: none;
 }
-.paginas {
+.container-fluid {
+  background-color: #f7af63;
+  padding: 10px;
+}
+.logo-navbar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #000000;
+}
+.navbar-collapse {
+  justify-content: end;
+}
+.navbar-nav {
+  display: grid;
   grid-area: pages;
   text-decoration-color: #000000;
+  flex-direction: row;
   display: flex;
   justify-content: space-around;
   font-family: "Sedan SC";
-  background-color: #f7af63;
+  background-color: #633d2e;
   font-weight: bolder;
+  width: 650px;
   padding: 20px;
   margin: 0;
-  border: 0;
+  border-radius: 20px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;  
+}
+.nav-link {
+  color: white;
+  padding: 0;
 }
 a {
   display: flex;
   justify-content: space-around;
-  color: black;
-  text-decoration: none;
-  padding-right: 50px;
-  padding-left: 50px;
+  color: black
 }
 /* main */
 main {
+  display: grid;
   grid-area: main;
 }
 .subtitulo {
@@ -78,6 +107,10 @@ main {
   margin: 40px 200px 100px 200px;
 }
 /* QUIENES SOMOS */
+h4 {
+  display: flex;
+  justify-content: center;
+}
 .qs-title {
   display: flex;
   justify-content: center;
@@ -103,7 +136,7 @@ main {
   line-height: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
-  margin: 70px 200px 0 200px;
+  margin: 20px 200px 20px 200px;
 }
 .img-container {
   text-align: center;
@@ -207,7 +240,9 @@ main {
   width: 75vw;
   max-width: 1000px;
   min-width: 320px;
-  margin: auto
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px
 }
 .carousel-control-prev-icon {
   background-color: #633d2e;
@@ -216,13 +251,14 @@ main {
   background-color: #633d2e;
 }
 footer {
+  display: grid;
   grid-area: footer;
   position: static;
 }
 .redes {
   background-color: #f7af63;
   font-weight: bolder;
-  padding: 20px;
+  padding: 10px;
   margin: 0;
   border: 0;
 }
@@ -252,6 +288,34 @@ footer {
       padding: 0px 0px 40px;
       height: auto;
   }
+/* INICIO */
+  .description {
+    font-size: 18px;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 40px;
+}
+.description-lugar {
+    font-size: 18px;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 40px;
+}
+/* QUIENES SOMOS */
+   .workers-first {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .workers-second {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media (min-width: 1185px) {
+  .navbar-expand-lg .navbar-collapse {
+      display: flex;
+      flex-basis: auto; 
+    }  
 }
 @media (min-width: 700px) and (max-width: 1000px) {
 /* INICIO */
@@ -265,6 +329,18 @@ footer {
       margin-left: 50px;
       line-height: 40px;
   }
+ /* QUIENES SOMOS */
+  h4 {
+    padding: 0px 90px;
+  }
+  .workers-first {
+  margin-left: 90px;
+  margin-right: 90px;
+  }
+  .workers-second {
+  margin-left: 90px;
+  margin-right: 90px;
+  }
 /* FAQS */
   .accordion {
       margin: 50px 30px;
@@ -272,12 +348,8 @@ footer {
 /* PRODUCTOS */
 }
 @media (min-width: 700px) and (max-width: 960px) {
-  /* INICIO */
-  .paginas {
-    display: flex;
-    flex-direction: column;
-  }
-  /* QUIENES SOMOS */
+/* INICIO */
+/* QUIENES SOMOS */
   .workers-first {
     margin-left: 90px;
     margin-right: 90px;
@@ -287,17 +359,44 @@ footer {
     margin-right: 90px;
   }
 }
-@media (min-width: 320px) and (max-width: 700px) {
-  /* INICIO */
-  .inicio-titulo {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
+@media (min-width: 992px) and (max-width: 1000px) {
+  .title-inicio { 
+    display: none;
   }
-  .paginas {
+}
+@media (min-width: 500px) and (max-width: 991px) { 
+  .title-inicio {
+    display: flex;
+  }
+  .navbar-nav {
+    display: flex;
+    width: 750px;
+    margin: 10px 0px;
+    border-radius: 0px;
+  }
+  .nav-item {
+    padding-bottom: 10px;
+  }
+  .nav-link {
+    text-decoration: underline;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+}
+@media (min-width: 320px) and (max-width: 763px){
+  .navbar-nav {
     display: flex;
     flex-direction: column;
-  }
+    width: 200px;
+    margin: 10px 0px;
+    border-radius: 0px;
+    align-items: center;
+  } 
+}
+@media (min-width: 320px) and (max-width: 700px) {
+  /* INICIO */
   .description {
     font-size: 18px;
     line-height: 35px;
@@ -305,6 +404,7 @@ footer {
     margin-left: 50px;
     margin-bottom: 40px;
   }
+  
   .description-lugar {
     font-size: 18px;
     line-height: 35px;
@@ -312,13 +412,13 @@ footer {
     margin-left: 50px;
     margin-bottom: 40px;
   }
-  .redes-sociales {
-    display: block;
-    justify-content: center;
-  }
   /* QUIENES SOMOS */
   .qs-title {
     font-size: 30px;
+  }
+  h4 {
+    font-size: 15px;
+    padding: 0px 50px;
   }
   .workers-first {
     margin-left: 50px;
@@ -383,50 +483,70 @@ footer {
     height: auto;
   }
 }
+@media (min-width: 320px) and (max-width: 500px) {
+  /* INICIO */
+  .title-inicio {
+    display: none;
+  }
+  
+  .nav-item {
+    padding-bottom: 10px;
+  }
+  .nav-link {
+    text-decoration: underline;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+  .video-1 {
+    transform: none;
+  }  
+}
 /* GRID LAYOUT */
 .grid-container-inicio {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.01fr 0.05fr 0.02fr ;
   grid-template-areas: 
-  "header header header header header" 
-  "main   main   main   main   main"
-  "footer footer footer footer footer";
+  "header header" 
+  "main   main"
+  "footer footer";
 }
 .grid-container-qs {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.01fr 0.05fr 0.02fr ;
   grid-template-areas: 
-  "header header header header header" 
-  "main   main   main   main   main"
-  "footer footer footer footer footer";
+  "header header" 
+  "main   main"
+  "footer footer";
 }
 .grid-container-sucursales {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.01fr 0.05fr 0.02fr ;
   grid-template-areas: 
-  "header header header header header" 
-  "main   main   main   main   main"
-  "footer footer footer footer footer"
+  "header header" 
+  "main   main"
+  "footer footer"
 }
 .grid-container-faqs {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.01fr 0.05fr 0.02fr ;
   grid-template-areas: 
-  "header header header header header" 
-  "main   main   main   main   main"
-  "footer footer footer footer footer";
+  "header header" 
+  "main   main"
+  "footer footer";
 }
 .grid-container-productos {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.01fr 0.05fr 0.02fr ;
   grid-template-areas: 
-  "header header header header header" 
-  "main   main   main   main   main"
-  "footer footer footer footer footer";
+  "header header" 
+  "main   main"
+  "footer footer";
 }
 /*# sourceMappingURL=main.css.map */
