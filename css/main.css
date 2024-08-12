@@ -154,6 +154,7 @@ h4 {
 .img-beer {
   width: 100%;
   border-radius: 15px;
+  margin-bottom: 30px;
 }
 /* SUCURSALES */
 .sucursales-title {
@@ -236,23 +237,21 @@ h4 {
 .d-block {
   text-align: center;
   width: 100%;
-  border-radius: 15px;
 }
 .d-block-two {
   text-align: center;
   width: 100%;
-  border-radius: 15px;
 }
 .carousel-inner {
   display: flex;
   align-items: center ;
-  width: 75vw;
+  width: 800px;
   height: 800px;
-  max-width: 1000px;
+  max-width: 1500px;
   min-width: 320px;
   margin: auto;
-  padding-top: 50px;
-  padding-bottom: 50px
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 .carousel-control-prev-icon {
   background-color: #633d2e;
@@ -347,6 +346,7 @@ footer {
  /* QUIENES SOMOS */
   h4 {
     padding: 0px 90px;
+    text-align: center;
   }
   .workers-first {
   margin-left: 90px;
@@ -361,6 +361,10 @@ footer {
       margin: 50px 30px;
   }
 /* PRODUCTOS */
+  .carousel-inner {
+    width: 500px;
+    height: 600px;
+  }
 }
 @media (min-width: 700px) and (max-width: 960px) {
 /* INICIO */
@@ -438,6 +442,7 @@ footer {
   h4 {
     font-size: 15px;
     padding: 0px 50px;
+    text-align: center;
   }
   .workers-first {
     margin-left: 50px;
@@ -471,9 +476,10 @@ footer {
   /* FAQS */
   .faqs-title {
     font-size: 30px;
+    text-align: center;
   }
   .accordion {
-    margin: 50px 30px;
+    margin: 15px 30px;
   }
   .accordion-button {
     padding: 40px 15px;
@@ -491,7 +497,8 @@ footer {
     width: auto;
   }
   .carousel-inner {
-    padding: 0px;
+    width: 400px;
+    height: 500px;
   }
   .d-block {
     padding: 0px 0px 40px;
@@ -532,7 +539,8 @@ footer {
     font-size: 15px;
   } 
   .carousel-inner{ 
-    height: 550px;
+    width: 200px;
+    height: 500px;
   }
   .productos-subtitle{
     font-size: 13px;
