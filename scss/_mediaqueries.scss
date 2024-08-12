@@ -1,225 +1,262 @@
 /* MEDIAS QUERIES */
 @media (min-width: 700px) and (max-width: 1530px) {
-    .d-block {
-        padding: 0px 0px 40px;
-        height: auto;
-    }
-    .d-block-two {
-        padding: 0px 0px 40px;
-        height: auto;
-    }
-  /* INICIO */
-    .description {
-      font-size: 18px;
+  .d-block {
+      padding: 0px 0px 40px;
+      height: auto;
+  }
+  .d-block-two {
+      padding: 0px 0px 40px;
+      height: auto;
+  }
+/* INICIO */
+  .description {
+    font-size: 18px;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 40px;
+}
+.description-lugar {
+    font-size: 18px;
+    margin-right: 50px;
+    margin-left: 50px;
+    line-height: 40px;
+}
+/* QUIENES SOMOS */
+   .workers-first {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+  .workers-second {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+/* PRODUCTOS */
+  .productos-title{
+       font-size: 40px;
+  } 
+}
+@media (min-width: 1185px) {
+  .navbar-expand-lg .navbar-collapse {
+      display: flex;
+      flex-basis: auto; 
+   }  
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+/* INICIO */
+  .description {
       margin-right: 50px;
       margin-left: 50px;
       line-height: 40px;
   }
   .description-lugar {
-      font-size: 18px;
       margin-right: 50px;
       margin-left: 50px;
       line-height: 40px;
   }
-  /* QUIENES SOMOS */
-     .workers-first {
-      margin-left: 90px;
-      margin-right: 90px;
-    }
-    .workers-second {
-      margin-left: 90px;
-      margin-right: 90px;
-    }
+ /* QUIENES SOMOS */
+  h4 {
+    padding: 0px 90px;
   }
-  @media (min-width: 1185px) {
-    .navbar-expand-lg .navbar-collapse {
-        display: flex;
-        flex-basis: auto; 
-      }  
+  .workers-first {
+  margin-left: 90px;
+  margin-right: 90px;
   }
-  @media (min-width: 700px) and (max-width: 1000px) {
-  /* INICIO */
-    .description {
-        margin-right: 50px;
-        margin-left: 50px;
-        line-height: 40px;
-    }
-    .description-lugar {
-        margin-right: 50px;
-        margin-left: 50px;
-        line-height: 40px;
-    }
-   /* QUIENES SOMOS */
-    h4 {
-      padding: 0px 90px;
-    }
-    .workers-first {
-    margin-left: 90px;
-    margin-right: 90px;
-    }
-    .workers-second {
-    margin-left: 90px;
-    margin-right: 90px;
-    }
-  /* FAQS */
-    .accordion {
-        margin: 50px 30px;
-    }
-  /* PRODUCTOS */
+  .workers-second {
+  margin-left: 90px;
+  margin-right: 90px;
   }
-  @media (min-width: 700px) and (max-width: 960px) {
-  /* INICIO */
-  /* QUIENES SOMOS */
-    .workers-first {
-      margin-left: 90px;
-      margin-right: 90px;
-    }
-    .workers-second {
-      margin-left: 90px;
-      margin-right: 90px;
-    }
-  }
-  @media (min-width: 992px) and (max-width: 1000px) {
-    .title-inicio { 
-      display: none;
-    }
-  }
-  @media (min-width: 500px) and (max-width: 991px) { 
-    .title-inicio {
-      display: flex;
-    }
-    .navbar-nav {
-      display: flex;
-      width: 750px;
-      margin: 10px 0px;
-      border-radius: 0px;
-    }
-    .nav-item {
-      padding-bottom: 10px;
-    }
-    .nav-link {
-      text-decoration: underline;
-    }
-    .navbar-collapse {
-      display: flex;
-      justify-content: end;
-    }
-  }
-  @media (min-width: 320px) and (max-width: 763px){
-    .navbar-nav {
-      display: flex;
-      flex-direction: column;
-      width: 200px;
-      margin: 10px 0px;
-      border-radius: 0px;
-      align-items: center;
-    } 
-  }
-  @media (min-width: 320px) and (max-width: 700px) {
-    /* INICIO */
-    .description {
-      font-size: 18px;
-      line-height: 35px;
-      margin-right: 50px;
-      margin-left: 50px;
-      margin-bottom: 40px;
-    }
-    
-    .description-lugar {
-      font-size: 18px;
-      line-height: 35px;
-      margin-right: 50px;
-      margin-left: 50px;
-      margin-bottom: 40px;
-    }
-    /* QUIENES SOMOS */
-    .qs-title {
-      font-size: 30px;
-    }
-    h4 {
-      font-size: 15px;
-      padding: 0px 50px;
-    }
-    .workers-first {
-      margin-left: 50px;
-      margin-right: 50px;
-      font-size: 15px;
-      line-height: 30px;
-    }
-    .workers-second {
-      margin-left: 50px;
-      margin-right: 50px;
-      font-size: 15px;
-      line-height: 30px;
-    }
-    /* SUCURSALES */
-    .sucursales-title {
-      font-size: 25px;
-    }
-    .sucursales-text1 {
-      font-size: 20px;
-    }
-    .btn-btn-primary {
-      display: flex;
-      text-align: center;
-      flex-wrap: wrap;
-      margin: 15px 0;
-      padding: 20px;
-    }
-    .sucursal {
-      font-size: 15px;
-    }
-    /* FAQS */
-    .faqs-title {
-      font-size: 30px;
-    }
-    .accordion {
+/* FAQS */
+  .accordion {
       margin: 50px 30px;
-    }
-    .accordion-button {
-      padding: 40px 15px;
-    }
-    /* PRODUCTOS */
-    .productos-title {
-      font-size: 25px;
-    }
-    .productos-subtitle {
-      font-size: 15px;
-      font-weight: 600;
-    }
-    .carousel {
-      height: auto;
-      width: auto;
-    }
-    .carousel-inner {
-      padding: 0px;
-    }
-    .d-block {
-      padding: 0px 0px 40px;
-      height: auto;
-    }
-    .d-block-two {
-      padding: 0px 0px 40px;
-      height: auto;
-    }
   }
-  @media (min-width: 320px) and (max-width: 500px) {
-    /* INICIO */
-    .title-inicio {
-      display: none;
-    }
-    
-    .nav-item {
-      padding-bottom: 10px;
-    }
-    .nav-link {
-      text-decoration: underline;
-    }
-    .navbar-collapse {
-      display: flex;
-      justify-content: end;
-    }
-    .video-1 {
-      transform: none;
-    }  
+/* PRODUCTOS */
+}
+@media (min-width: 700px) and (max-width: 960px) {
+/* INICIO */
+/* QUIENES SOMOS */
+  .workers-first {
+    margin-left: 90px;
+    margin-right: 90px;
   }
+  .workers-second {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1000px) {
+  .title-inicio { 
+    display: none;
+  }
+}
+@media (min-width: 500px) and (max-width: 991px) { 
+  .title-inicio {
+    display: flex;
+    font-size: 15px;
+  }
+  .navbar-nav {
+    display: flex;
+    width: 750px;
+    margin: 10px 0px;
+    border-radius: 0px;
+  }
+  .nav-item {
+    padding-bottom: 10px;
+  }
+  .nav-link {
+    text-decoration: underline;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+  .productos-title{
+    font-size: 30px;
+  } 
+}
+@media (min-width: 320px) and (max-width: 763px){
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 10px 0px;
+    border-radius: 0px;
+    align-items: center;
+  } 
+}
+@media (min-width: 320px) and (max-width: 700px) {
+  /* INICIO */
+  .description {
+    font-size: 18px;
+    line-height: 35px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .description-lugar {
+    font-size: 18px;
+    line-height: 35px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+  }
+  /* QUIENES SOMOS */
+  .qs-title {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 15px;
+    padding: 0px 50px;
+  }
+  .workers-first {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .workers-second {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  /* SUCURSALES */
+  .sucursales-title {
+    font-size: 25px;
+  }
+  .sucursales-text1 {
+    font-size: 20px;
+  }
+  .btn-btn-primary {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    padding: 20px;
+  }
+  .sucursal {
+    font-size: 15px;
+  }
+  /* FAQS */
+  .faqs-title {
+    font-size: 30px;
+  }
+  .accordion {
+    margin: 50px 30px;
+  }
+  .accordion-button {
+    padding: 40px 15px;
+  }
+  /* PRODUCTOS */
+  .productos-title {
+    font-size: 25px;
+  }
+  .productos-subtitle {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .carousel {
+    height: auto;
+    width: auto;
+  }
+  .carousel-inner {
+    padding: 0px;
+  }
+  .d-block {
+    padding: 0px 0px 40px;
+    height: auto;
+  }
+  .d-block-two {
+    padding: 0px 0px 40px;
+    height: auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  /* INICIO */
+  .title-inicio { 
+    padding: 0  ;
+  }
+  h1{
+    padding: 0;
+    font-size: 20px;
+  }
+  .logo-navbar { 
+    height: 70px;
+    width: 70px;
+  }
+  .nav-item {
+    padding-bottom: 10px;
+  }
+  .nav-link {
+    text-decoration: underline;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+  .video-1 {
+    transform: none;
+  }
+  .productos-title{
+    font-size: 15px;
+  } 
+  .carousel-inner{ 
+    height: 550px;
+  }
+  .productos-subtitle{
+    font-size: 13px;
+  } 
+}
+@media (min-width: 320px) and (max-width: 350px) {
+  h1{ 
+    font-size: 15px;
+  }
+  .navbar-toggler{
+    display: flex;
+    justify-content: end;
+  }
+  .navbar-toggler-icon {
+    display: flex;
+    justify-content: end;
+  }
+}

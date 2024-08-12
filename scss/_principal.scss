@@ -10,7 +10,7 @@ main {
   .description {
     text-align: justify;
     line-height: 50px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: $text-fonts;
     font-size: 22px;
     font-weight: 500;
     margin: 40px 200px 40px 200px;
@@ -28,7 +28,7 @@ main {
   .description-lugar {
     text-align: justify;
     line-height: 50px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: $text-fonts;
     font-size: 22px;
     font-weight: 500;
     margin: 40px 200px 100px 200px;
@@ -41,7 +41,7 @@ main {
   .qs-title {
     display: flex;
     justify-content: center;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-family: $h1-titles;
     font-size: 60px;
     padding: 20px 0 15px 0;
     margin: 0;
@@ -52,7 +52,7 @@ main {
     flex-wrap: wrap;
     text-align: justify;
     line-height: 50px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: $text-fonts;
     font-size: 18px;
     margin: 20px 200px 20px 200px;
   }
@@ -61,7 +61,7 @@ main {
     flex-wrap: wrap;
     text-align: justify;
     line-height: 50px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: $text-fonts;
     font-size: 18px;
     margin: 20px 200px 20px 200px;
   }
@@ -85,8 +85,11 @@ main {
   .sucursales-title {
     display: flex;
     justify-content: center;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    margin: 30px 0 0 0;
+    font-family: $h1-titles;
+    font-size: 60px;
+    padding: 20px 0 15px 0;
+    margin: 0;
+    border: 0;
   }
   .sucursales-text1 {
     display: flex;
@@ -115,39 +118,46 @@ main {
   }
   /* FAQS */
   .faqs-title {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    font-size: 50px;
-    text-align: center;
-    text-decoration: underline;
-    padding: 30px 30px 0 30px;
+    display: flex;
+    justify-content: center;
+    font-family: $h1-titles;
+    font-size: 60px;
+    padding: 20px 0 15px 0;
+    margin: 0;
+    border: 0;
   }
   .accordion {
     margin: 50px 200px 100px 200px;
-  }
-  .accordion-item {
-    background: #f7af63;
-  }
-  .accordion-button {
-    font-family: "Sedan SC";
-    font-weight: 600;
-    height: 60px;
-    color: black;
-    background: #9cddc8;
-  }
-  .accordion-body {
-    color: black;
-    font-weight: bolder;
+        &-item {
+                 background: #f7af63;
+
+              &-button {
+                        font-family: "Sedan SC";
+                        font-weight: 600;
+                        height: 60px;
+                        color: black;
+                        background: #9cddc8;
+
+                      &-body {
+                              color: black;
+                              font-weight: bolder;
+                             }
+                        }
+                 }
+  
   }
   /* PRODUCTOS */
   .productos-title {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-    text-align: center;
-    font-size: 35px;
-    text-decoration: underline;
-    padding: 30px 100px 30px 100px;
+    display: flex;
+    justify-content: center;
+    font-family: $h1-titles;
+    font-size: 60px;
+    padding: 20px 0 15px 0;
+    margin: 0;
+    border: 0;
   }
   .productos-subtitle {
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-family: $h1-titles;
     text-align: center;
     font-size: 20px;
     margin-top: -15px;
@@ -162,18 +172,24 @@ main {
     width: 100%;
     border-radius: 15px;
   }
-  .carousel-inner {
-    text-align: center;
-    width: 75vw;
-    max-width: 1000px;
-    min-width: 320px;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px
-  }
-  .carousel-control-prev-icon {
-    background-color: #633d2e;
-  }
-  .carousel-control-next-icon {
-    background-color: #633d2e;
-  }
+  .carousel{ 
+         &-inner {
+               display: flex;
+               align-items: center ;
+               width: 75vw;
+               height: 1000px;
+               max-width: 1000px;
+               min-width: 320px;
+               margin: auto;
+               padding-top: 50px;
+
+            &-control-prev-icon {
+                     background-color: #633d2e;
+                                                    
+                    &-control-next-icon {
+                              background-color: #633d2e;
+                              padding-bottom: 50px
+                                      }
+                             }
+                }
+}  

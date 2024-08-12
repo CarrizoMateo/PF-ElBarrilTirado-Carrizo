@@ -1,0 +1,21 @@
+//Titles
+$h1-titles: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+//Textos
+$text-fonts: Georgia, "Times New Roman", Times, serif;
+
+/* Mapas */
+$rrss:( 
+    color: white
+    background-color: black
+    border-radius: 15px
+);
+// redes colors
+
+@each $redes, $colors in $rrss {
+    .m-redes-#{$redes}{
+        color: $colors;
+        background-color: $colors;
+        border-radius: $colors;
+    }
+}
